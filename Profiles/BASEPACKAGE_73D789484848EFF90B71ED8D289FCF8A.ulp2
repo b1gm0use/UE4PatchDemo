@@ -1,0 +1,117 @@
+{
+	"Version": 28,
+	"Id": "73D789484848EFF90B71ED8D289FCF8A",
+	"Name": "BasePackage",
+	"Description": "",
+	"BuildConfiguration": 3,
+	"ProjectSpecified": true,
+	"ShareableProjectPath": "D:/GitProjects/UE4PatchDemo/UE4PatchDemo.uproject",
+	"CookConfiguration": 3,
+	"CookIncremental": false,
+	"CookOptions": "",
+	"CookMode": 1,
+	"CookUnversioned": true,
+	"CookedCultures": [
+		"en"
+	],
+	"CookedPlatforms": [
+		"WindowsNoEditor"
+	],
+	"DeployStreamingServer": false,
+	"DeployWithUnrealPak": true,
+	"DeployedDeviceGroupId": "2C3B65FD474505EE883954BB091B12A1",
+	"DeploymentMode": 0,
+	"HideFileServerWindow": false,
+	"LaunchMode": 2,
+	"PackagingMode": 1,
+	"PackageDir": "",
+	"BuildMode": 0,
+	"ForceClose": true,
+	"Timeout": 60,
+	"Compressed": true,
+	"EncryptIniFiles": false,
+	"ForDistribution": false,
+	"DeployPlatform": "None",
+	"NumCookersToSpawn": 0,
+	"SkipCookingEditorContent": true,
+	"DeployIncremental": false,
+	"GeneratePatch": false,
+	"AddPatchLevel": false,
+	"StageBaseReleasePaks": false,
+	"DLCIncludeEngineContent": false,
+	"CreateReleaseVersion": true,
+	"CreateReleaseVersionName": "1.0",
+	"BasedOnReleaseVersionName": "",
+	"CreateDLC": false,
+	"DLCName": "",
+	"GenerateChunks": true,
+	"GenerateHttpChunkData": false,
+	"HttpChunkDataDirectory": "",
+	"HttpChunkDataReleaseName": "",
+	"Archive": false,
+	"ArchiveDirectory": "",
+	"AdditionalCommandLineParameters": "",
+	"IncludePrerequisites": false,
+	"DefaultRole":
+	{
+		"AssignedDevice": "",
+		"CommandLine": "",
+		"DeviceId": "",
+		"InitialCulture": "en",
+		"InitialMapName": "",
+		"Name": "DefaultRole",
+		"InstanceType": 2,
+		"VsyncEnabled": false
+	},
+	"scripts": [
+		{
+			"script": "BuildCookRun",
+			"project": "D:/GitProjects/UE4PatchDemo/UE4PatchDemo.uproject",
+			"noP4": true,
+			"nocompile": true,
+			"nocompileeditor": true,
+			"ue4exe": "C:\\Epic Games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Cmd.exe",
+			"utf8output": true,
+			"clientconfig": [
+				"Development"
+			],
+			"serverconfig": [
+				"Development"
+			],
+			"platform": [
+				"Win64"
+			],
+			"targetplatform": "Win64",
+			"cmdline":
+			{
+				"": "",
+				"messaging": true
+			},
+			"device": [],
+			"addcmdline":
+			{
+				"sessionid": "921BFFD748F66041392270A9C84AF4B6",
+				"sessionowner": "lidi",
+				"sessionname": "BasePackage"
+			},
+			"map": [
+				""
+			],
+			"build": true,
+			"cook": true,
+			"unversionedcookedcontent": true,
+			"pak": true,
+			"createreleaseversion": "1.0",
+			"generatepatch": false,
+			"manifests": true,
+			"iterativecooking": false,
+			"iteratesharedcookedbuild": false,
+			"skipcookingeditorcontent": true,
+			"compressed": true,
+			"EncryptIniFiles": false,
+			"ForDistribution": false,
+			"stage": true,
+			"package": true
+		}
+	]
+}
