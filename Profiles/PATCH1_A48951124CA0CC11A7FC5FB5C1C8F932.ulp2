@@ -1,0 +1,120 @@
+{
+	"Version": 28,
+	"Id": "A48951124CA0CC11A7FC5FB5C1C8F932",
+	"Name": "Patch1",
+	"Description": "",
+	"BuildConfiguration": 3,
+	"ProjectSpecified": true,
+	"ShareableProjectPath": "",
+	"CookConfiguration": 3,
+	"CookIncremental": false,
+	"CookOptions": "",
+	"CookMode": 1,
+	"CookUnversioned": true,
+	"CookedCultures": [
+		"en"
+	],
+	"CookedPlatforms": [
+		"WindowsNoEditor"
+	],
+	"DeployStreamingServer": false,
+	"DeployWithUnrealPak": true,
+	"DeployedDeviceGroupId": "D729B1444E634E410307AB8867A6BDC8",
+	"DeploymentMode": 0,
+	"HideFileServerWindow": false,
+	"LaunchMode": 2,
+	"PackagingMode": 1,
+	"PackageDir": "",
+	"BuildMode": 0,
+	"ForceClose": true,
+	"Timeout": 60,
+	"Compressed": true,
+	"EncryptIniFiles": false,
+	"ForDistribution": false,
+	"DeployPlatform": "None",
+	"NumCookersToSpawn": 0,
+	"SkipCookingEditorContent": true,
+	"DeployIncremental": false,
+	"GeneratePatch": true,
+	"AddPatchLevel": true,
+	"StageBaseReleasePaks": true,
+	"DLCIncludeEngineContent": false,
+	"CreateReleaseVersion": true,
+	"CreateReleaseVersionName": "1.1",
+	"BasedOnReleaseVersionName": "1.0",
+	"CreateDLC": false,
+	"DLCName": "",
+	"GenerateChunks": true,
+	"GenerateHttpChunkData": false,
+	"HttpChunkDataDirectory": "",
+	"HttpChunkDataReleaseName": "",
+	"Archive": false,
+	"ArchiveDirectory": "",
+	"AdditionalCommandLineParameters": "",
+	"IncludePrerequisites": false,
+	"DefaultRole":
+	{
+		"AssignedDevice": "",
+		"CommandLine": "",
+		"DeviceId": "",
+		"InitialCulture": "en",
+		"InitialMapName": "",
+		"Name": "DefaultRole",
+		"InstanceType": 2,
+		"VsyncEnabled": false
+	},
+	"scripts": [
+		{
+			"script": "BuildCookRun",
+			"project": "",
+			"noP4": true,
+			"nocompile": true,
+			"nocompileeditor": true,
+			"ue4exe": "C:\\Epic Games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Cmd.exe",
+			"utf8output": true,
+			"clientconfig": [
+				"Development"
+			],
+			"serverconfig": [
+				"Development"
+			],
+			"platform": [
+				"Win64"
+			],
+			"targetplatform": "Win64",
+			"cmdline":
+			{
+				"": "",
+				"messaging": true
+			},
+			"device": [],
+			"addcmdline":
+			{
+				"sessionid": "BEBBB1354FAF03A4FD2EF2B2F859DB49",
+				"sessionowner": "lidi",
+				"sessionname": "Patch1"
+			},
+			"map": [
+				""
+			],
+			"build": true,
+			"cook": true,
+			"unversionedcookedcontent": true,
+			"pak": true,
+			"createreleaseversion": "1.1",
+			"generatepatch": true,
+			"basedonreleaseversion": "1.0",
+			"stagebasereleasepaks": true,
+			"addpatchlevel": true,
+			"manifests": true,
+			"iterativecooking": false,
+			"iteratesharedcookedbuild": false,
+			"skipcookingeditorcontent": true,
+			"compressed": true,
+			"EncryptIniFiles": false,
+			"ForDistribution": false,
+			"stage": true,
+			"package": true
+		}
+	]
+}
